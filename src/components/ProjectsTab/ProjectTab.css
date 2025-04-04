@@ -1,0 +1,49 @@
+.projectstab__cont{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectstab__heading{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    
+    font-weight: 500;
+    color: #222;
+    padding: 2rem;
+}
+
+.projecttab__tabs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+}
+.projecttab__tabs img{
+    width: 100%;
+
+}
+
+.projectstab__item{
+    width: 31%;
+    cursor: pointer;
+}
+
+.imagedata{
+    padding: 1rem .4rem;
+    margin-bottom: 2rem;
+  
+}
+
+.imagedata p:first-of-type{
+    font-weight: 600;
+    font-size: #222;
+    font-size: 1.2rem;
+}
+
+.imagedata p:last-of-type{
+    font-size: 14px;
+    color: #555;
+    line-height: 1.1;
+}

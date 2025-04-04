@@ -1,0 +1,36 @@
+.button__cont {
+    position: relative;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+    padding: 4px 24px;
+    font-size: 16px;
+    
+   border: 1px solid #fff;
+   background-color: transparent;
+    
+    border-radius: 21px;
+    outline: none;
+    color: #fff;
+   
+  }
+  
+  .btn__bg {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 211px;
+    height: 31px;
+    background: rgb(221, 228, 15);
+    z-index: 0;
+    width: 211px;
+    border-radius: 21px;
+    height: 41px;
+    
+  }
+  
+  .button-text {
+    position: relative;
+    z-index: 1;
+  }
+  

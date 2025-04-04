@@ -1,0 +1,118 @@
+/* ServicesList.css */
+.services-container {
+   width: 100%;
+  
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Open Sans';
+
+  }
+  
+  .services-heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: #111;
+  }
+  
+  .services-content {
+    display: flex;
+    gap: 3rem;
+    flex-direction: row-reverse;
+  }
+  
+  .services-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+  }
+  
+  .service-item {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    cursor: pointer;
+    font-size: 2rem;
+    border-bottom: 1px solid #1a6aec5c;
+   
+
+  }
+  .service-item span{
+    font-size: 1.4rem !important;
+  }
+  
+  .service-icon-wrapper {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    margin-right: 1.2rem;
+    flex-shrink: 0;
+  }
+  
+  .service-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .service-icon.default-icon {
+    opacity: 1;
+  }
+  
+  .service-icon.hover-icon {
+    opacity: 0;
+  }
+  
+  .service-label {
+    font-size: 1.1rem;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .service-preview {
+    width: 40%;
+    position: sticky;
+   
+    top: 2rem;
+  }
+  
+  .preview-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  /*   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+    transition: opacity 0.4s ease;
+  }
+  
+  /* Hover Effects */
+  .service-item:hover {
+    transform: translateX(12px);
+  }
+  
+  .service-item:hover .service-label {
+    color: #0d50ba;
+    font-size: 1.4rem;
+  }
+  
+  .service-item:hover .default-icon {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  
+  .service-item:hover .hover-icon {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  
+  .service-item:hover {
+   /*  background-color: rgba(58, 134, 255, 0.05); */
+    border-radius: 6px;
+    padding-left: 0.8rem;
+  }

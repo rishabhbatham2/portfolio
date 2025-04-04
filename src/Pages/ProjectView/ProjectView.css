@@ -1,0 +1,74 @@
+.projectview__cont{
+    display: flex;
+    min-height: 111vh;
+    width: 100%;
+    background-color: #f2f2f2;
+    z-index: 22;
+    padding-top: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+    
+  
+}
+
+
+.projectview__header{
+    color: #555;
+    font-size: 2.9rem;
+    
+  
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+
+.projectview__scroll{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    overflow: hidden;
+    max-height: 111vh;
+    margin-bottom: 2rem;
+}
+
+.projectview__scroll img{
+    width: 100%;
+}
+
+.projectview__data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+
+
+}
+
+.projectviewtext{
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #222;
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+    width: 48%;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    
+}
+
+.projectviewdetails{
+    width: 51%;
+}

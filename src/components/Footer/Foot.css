@@ -1,0 +1,91 @@
+.footer {
+    width: 100%;
+    background: black;
+    padding: 20px 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 211;
+    padding: 2rem 0rem;
+    padding-top: 0;
+  }
+  
+  .footer-roll {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    will-change: transform; 
+    transform: translateZ(0); 
+    margin-bottom: 1rem;
+
+  }
+  .footer-roll span{
+    margin-bottom: .2rem;
+    background-color: #cf3c63;
+    font-size: 14px;
+    padding: 1rem 1rem;
+    margin-right: -.1rem;
+  }
+  
+  .rolling-text-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+  }
+  
+  .rolling-text {
+    display: flex;
+    min-width: 200%;
+  }
+  
+  .rolling-text span {
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    padding-right: 50px;
+  }
+  
+
+  .interesttext{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 2rem;
+    color: #fff;
+    margin-top: 3rem;
+  }
+
+
+  .stadardtextcont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 2rem;
+    
+  }
+
+  .stadardtextcont img{
+    width: 51%;
+  }
+.bottomnavs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+
+}
+  .leftcopyright{
+    color: #fff;
+  }
+
+  .rightcopy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.rightcopy svg{
+    width: 22px;
+    margin-right: 1rem;
+}

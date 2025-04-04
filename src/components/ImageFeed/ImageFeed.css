@@ -1,0 +1,48 @@
+.image-feed {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    background: #f8f8f8;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .image-feed-header{
+    padding-left: 2rem;
+  }
+  
+  .image-feed-container {
+    width: 100%;
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .image-feed-track {
+    display: flex;
+    animation: scroll 20s linear infinite;
+  }
+  
+  .image-feed-card {
+    flex: 0 0 auto;
+    width: 300px; /* Adjust based on your design */
+    margin: 0 10px;
+  }
+  
+  .image-feed-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Infinite scrolling animation */
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
