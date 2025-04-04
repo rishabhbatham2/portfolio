@@ -27,8 +27,7 @@
     root * dist
 
     # enable gzipping responses
-    encode gzip
-
+  
     # serve files from 'dist'
     file_server
 

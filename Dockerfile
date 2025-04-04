@@ -1,5 +1,4 @@
-# Use the Node alpine official image
-# https://hub.docker.com/_/node
+
 FROM node:lts-alpine AS build
 
 # Set config
@@ -36,5 +35,5 @@ RUN caddy fmt Caddyfile --overwrite
 # Copy files to the container image.
 COPY --from=build /app/dist ./dist
 
-# Use Caddy to run/serve the app
+
 CMD ["caddy", "run", "--config", "Caddyfile", "--adapter", "caddyfile"]
